@@ -4,9 +4,7 @@ const weatherSlice = createSlice({
     name: 'weather',
     initialState: {},
     reducers: {
-        putWeatherInfo: (_state, action) => {
-            return action.payload;
-        }
+        putWeatherInfo: (state, action) => action.payload
     }
 })
 
